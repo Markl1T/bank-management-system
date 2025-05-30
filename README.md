@@ -4,20 +4,23 @@ This repository contains all the essential documentation, requirements, use case
 
 ## Folder Structure
 
-This repository is organized into three main folders to efficiently manage the various documentation and materials related to the Bank Management System project:
+This repository is organized into four main folders to manage the various documentation and materials related to the Bank Management System project:
 
 ### 1. **`diagrams/`**  
-This folder contains the **Use Case Diagram** and **Activity Diagrams** for the system:
+This folder contains the **Use Case Diagram**, **ER Diagram**, **Use Case Diagram**, as well as folders for each of the following:
 
-- **Use Case Diagram**: This diagram illustrates the interactions between different actors (e.g., customers, bank employees, administrators) and the system. They provide a high-level overview of the system’s functionality and how users interact with it.
-- **Activity Diagrams**: These diagrams represent the workflows and processes within the system. They visually map out the steps involved in key operations and business processes.
+- **Activity Diagrams**
+- **Sequence Diagrams**
+- **Collaboration Diagrams**
+- **State Diagrams**
 
 ### 2. **`documentation/`**  
 This folder contains the **documentation file** for the project:
 
-- **Documentation File**: This document includes the **system requirements** (functional and non-functional) and **use case tables**. The requirements outline what the system must do and how it should perform. The use case tables provide structured descriptions of the system’s functionality, listing the actors, main flows, and alternative flows for each use case.
+- **Documentation File**: This document includes the **system requirements** (functional and non-functional), **use case tables**, **diagrams**, as well as the **design patterns** with the corresponding explanations.
 
 ### 3. **`reports/`**  
-This folder contains the **weekly meeting reports** documenting the progress and discussions held during team meetings:
+This folder contains the **weekly meeting reports** documenting the progress and discussions held during team meetings.
 
-- **Weekly Meeting Reports**: These reports summarize the topics discussed, decisions made, and tasks assigned during each weekly meeting.
+### 4. **`patterns/`**
+This folder contains class diagrams for the four selected design patterns: Singleton, Registry, Bridge, and Visitor.
